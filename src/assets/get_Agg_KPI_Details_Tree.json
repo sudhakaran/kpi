@@ -1,0 +1,113 @@
+{  
+    "kpiId":1,
+    "kpiName":"Agg KPI3",
+    "isAggregateKPI":"Y",
+    "isKPIMonitored":"Y",
+    "isLazyLoading":"N",
+    "displayTemplate" : "template",
+    "displayParameters":"param1",
+    "thresholdMin":10,
+    "thresholdMax":50,
+    "monitoringUrl":"url",
+    "actionTemplate":"template1",
+    "applicationGroupId":2,
+    "applicationNameId":3,
+    "kpiTypeId":1,
+    "kpis":[  
+        {  
+            "kpiId":2,
+            "kpiName":"Agg KPI2",
+            "isAggregateKPI":"Y",
+            "isKPIMonitored":"Y",
+            "isLazyLoading":"N",
+            "displayTemplate" : "template",
+            "displayParameters":"param1",
+            "thresholdMin":10,
+            "thresholdMax":50,
+            "monitoringUrl":"url",
+            "actionTemplate":"template1",
+            "kpis":[  
+                {  
+                    "kpiId":3,
+                    "kpiName":"Agg KPI1",
+                    "isAggregateKPI":"Y",
+                    "isKPIMonitored":"N",
+                    "isLazyLoading":"Y",
+                    "displayTemplate" : null,
+                    "displayParameters":null,
+                    "thresholdMin":null,
+                    "thresholdMax":null,
+                    "monitoringUrl":null,
+                    "actionTemplate":null,
+                    "kpis":[  
+
+                    ]
+                },
+                {  
+                    "kpiId":7,
+                    "kpiName":"KPI4",
+                    "isAggregateKPI":"N",
+                    "isKPIMonitored":"N",
+                    "isLazyLoading":"N",
+                     "displayTemplate" : "template",
+                    "displayParameters":"param1",
+                    "thresholdMin":10,
+                    "thresholdMax":50,
+                    "monitoringUrl":"url",
+                    "actionTemplate":"template1",
+                    "kpis":[  
+
+                    ]
+                },
+                {  
+                    "kpiId":8,
+                    "kpiName":"KPI5",
+                    "isAggregateKPI":"N",
+                    "isKPIMonitored":"N",
+                    "isLazyLoading":"N",
+                     "displayTemplate" : "template",
+                    "displayParameters":"param1",
+                    "thresholdMin":10,
+                    "thresholdMax":50,
+                    "monitoringUrl":"url",
+                    "actionTemplate":"template1",
+                    "kpis":[  
+
+                    ]
+                }
+            ]
+        },
+        {  
+            "kpiId":9,
+            "kpiName":"KPI6",
+            "isAggregateKPI":"N",
+            "isKPIMonitored":"N",
+            "isLazyLoading":"N",
+            "displayTemplate" : "template",
+            "displayParameters":"param1",
+            "thresholdMin":10,
+            "thresholdMax":50,
+            "monitoringUrl":"url",
+            "actionTemplate":"template1",
+            "kpis":[  
+
+            ]
+        },
+        {  
+            "kpiId":10,
+            "kpiName":"KPI7",
+            "isAggregateKPI":"N",
+            "isKPIMonitored":"N",
+            "isLazyLoading":"N",
+            "displayTemplate" : "template",
+            "displayParameters":"param1",
+            "thresholdMin":10,
+            "thresholdMax":50,
+            "monitoringUrl":"url",
+            "actionTemplate":"template1",
+            "kpis":[  
+
+            ]
+        }
+    ]
+}
